@@ -4,13 +4,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body{
+      background-image: url("image.png");
+      color:aliceblue;
+      object-fit: contain;
+      padding-bottom: 8000px;
+    }
+
+    .title{
+      margin-left: 450px;
+      margin-top: 60px;
+      font-size:45px;
+      font-family: 'SurGraphics';
+      color:rgba(204, 255, 0, 0.824);
+      display: inline-block;
+      text-shadow: 0 5px 5px rgb(0, 0, 0);
+    }
+
+    .hero{
+      margin-left: 50px;
+      margin-top: 80px;
+      font-size: 50px;
+      font-family: 'SurGraphics';
+      line-height: 70px;
+      display: flex;
+      text-align: center;
+      color:rgb(93, 205, 228);
+      text-shadow: 0 5px 5px rgb(0, 0, 0);
+    }
+
+    nav ul{
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      position: fixed;
+      right: 100px;
+      top: 20px;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight:400;
+      font-family: 'Roboto Condensed';
+      list-style: none;
+      background-color: rgba(255, 255, 255, 0.25);
+      padding: 10px  40px;
+      border-radius: 20px;
+      backdrop-filter: saturate(180%) blur(20px);
+      z-index: 10;
+    }
+
+    nav ul li a{
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover{
+      color: rgb(62, 152, 237);
+      transition: 0.15s;
+      cursor: pointer;
+    }
+
+    nav ul li a:active{
+      color: rgb(1, 22, 41);
+      transition: 0.08s;
+    }
+
+    img{
+      width: 70px;
+      height: 80px;
+      margin-top: 20px;
+      margin-left: 40px;
+
+    }
+
+    .logo-container{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      position: relative;
+    }
+
+    .name{
+      position: absolute;
+      font-size: 30px;
+      font-family: 'Roboto Condensed';
+      color:rgba(255, 255, 255, 0.824);
+      display: inline-block;
+      margin-left: 130px;
+      margin-top: 45px;
+    }
+
+    .rectangle{
+      width: 600px;
+      height: 340px;
+      background-color: rgba(16, 16, 193, 0.709);
+      position: absolute;
+      top: 300px;
+      right: 150px;
+      border-radius: 40px;
+      border: solid 2px rgba(255, 255, 255, 0.5);
+    }
+  </style>
 </head>
 <body>
+  <div class="logo-container"><img src="humcgg.png"><h1 class="name">HUMCGG</h1></div>
+  <nav><ul>
+    <li><a href="humcgg.html">Home</a></li>
+    <li><a>About</a></li>
+    <li><a>Shop</a></li>
+    <li><a>Gallery</a></li>
+    <li><a>Blog</a></li>
+    <li><a>Socials</a></li>
+    <li><a>Contact</a></li>
+  </ul></nav>
+  
+  <h1 class="title">የሐዋሳ ዩኒቨርሲቲ ዋናው ግቢ ግቢ-ጉባኤ</h1>
+  <h1 class="hero">ያየነውን እንናገራለን <br>
+    የሰማነውን እንመሰክራለን!</h1>
+
+    <div class="rectangle">
+
+    </div>
+
 </body>
-<style>
-  img{
-    height: 100px;
-    width: 100px;
-  }
-</style>
 </html>
